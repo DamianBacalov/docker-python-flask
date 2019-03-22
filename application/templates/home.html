@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Docker Container with Python and Flask</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/bootstrap.min.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/site.css') }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <div class="row backgroundimg">
+            <div class="content">
+                <div class="panel panel-default panel-transparent">
+                    <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Docker Container with Python and Flask</strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="alert alert-info" role="alert"><strong>If you are seeing this, then it works!</strong></div>
+                        <p>Some useful data:</p>
+                        <p>
+                            <ul class="list-group">
+                                <li class="list-group-item">IP (from container): <strong>{{ ip }}</strong></li>
+                                <li class="list-group-item">Module name (from config): <strong>{{ name }}</strong></li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
