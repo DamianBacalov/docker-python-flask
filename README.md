@@ -11,7 +11,7 @@ My suggestion of a Production Ready Docker image for a Python / Flask applicatio
 
 ### Why is this image smaller than others?
 
-* Based on Alipine image
+* Based on Alpine image
 * Cleanes the system after apk add commands
 * Uses Alpine uwsgi package
 * Doesn't use Supervisord. It uses a bash's job as described [here](https://docs.docker.com/config/containers/multi-service_container/)
