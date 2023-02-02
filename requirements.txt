@@ -4,4 +4,4 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 pi==0.1.2
-Werkzeug==0.15.2
+Werkzeug==0.15.5
